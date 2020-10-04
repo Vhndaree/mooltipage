@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>MDataNodeRef | mooltipage - v0.0.1</title>
+	<title>MWhitespaceNodeMode | mooltipage - v0.0.1</title>
 	<meta name="description" content="Documentation for mooltipage - v0.0.1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -59,10 +59,10 @@
 					<a href="../modules/_dom_node_.html">&quot;dom/node&quot;</a>
 				</li>
 				<li>
-					<a href="_dom_node_.mdatanoderef.html">MDataNodeRef</a>
+					<a href="_dom_node_.mwhitespacenodemode.html">MWhitespaceNodeMode</a>
 				</li>
 			</ul>
-			<h1>Interface MDataNodeRef</h1>
+			<h1>Enumeration MWhitespaceNodeMode</h1>
 		</div>
 	</div>
 </header>
@@ -72,61 +72,53 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>A data reference defined in an <m-data> node</p>
+						<p>Supported whitespace-handling modes for <m-whitespace></p>
 					</div>
 				</div>
-			</section>
-			<section class="tsd-panel tsd-hierarchy">
-				<h3>Hierarchy</h3>
-				<ul class="tsd-hierarchy">
-					<li>
-						<span class="target">MDataNodeRef</span>
-					</li>
-				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Properties</h3>
+							<h3>Enumeration members</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_dom_node_.mdatanoderef.html#respath" class="tsd-kind-icon">res<wbr>Path</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_dom_node_.mdatanoderef.html#varname" class="tsd-kind-icon">var<wbr>Name</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_dom_node_.mwhitespacenodemode.html#insensitive" class="tsd-kind-icon">INSENSITIVE</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_dom_node_.mwhitespacenodemode.html#sensitive" class="tsd-kind-icon">SENSITIVE</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="respath" class="tsd-anchor"></a>
-					<h3>res<wbr>Path</h3>
-					<div class="tsd-signature tsd-kind-icon">res<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+				<h2>Enumeration members</h2>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="insensitive" class="tsd-anchor"></a>
+					<h3>INSENSITIVE</h3>
+					<div class="tsd-signature tsd-kind-icon">INSENSITIVE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;insensitive&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1381">dom/node.ts:1381</a></li>
+							<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1941">dom/node.ts:1941</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
-							<p>Path to the data file</p>
+							<p>Markup is not whitespace-sensitive</p>
 						</div>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="varname" class="tsd-anchor"></a>
-					<h3>var<wbr>Name</h3>
-					<div class="tsd-signature tsd-kind-icon">var<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="sensitive" class="tsd-anchor"></a>
+					<h3>SENSITIVE</h3>
+					<div class="tsd-signature tsd-kind-icon">SENSITIVE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;sensitive&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1386">dom/node.ts:1386</a></li>
+							<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1936">dom/node.ts:1936</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
-							<p>Name of the scope variable to bind to</p>
+							<p>Markup is whitespace-sensitive</p>
 						</div>
 					</div>
 				</section>
@@ -147,14 +139,14 @@
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="_dom_node_.mdatanoderef.html" class="tsd-kind-icon">MData<wbr>Node<wbr>Ref</a>
+					<li class="current tsd-kind-enum tsd-parent-kind-module">
+						<a href="_dom_node_.mwhitespacenodemode.html" class="tsd-kind-icon">MWhitespace<wbr>Node<wbr>Mode</a>
 						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_dom_node_.mdatanoderef.html#respath" class="tsd-kind-icon">res<wbr>Path</a>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="_dom_node_.mwhitespacenodemode.html#insensitive" class="tsd-kind-icon">INSENSITIVE</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_dom_node_.mdatanoderef.html#varname" class="tsd-kind-icon">var<wbr>Name</a>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="_dom_node_.mwhitespacenodemode.html#sensitive" class="tsd-kind-icon">SENSITIVE</a>
 							</li>
 						</ul>
 					</li>
@@ -178,15 +170,14 @@
 				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
-				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
-			</ul>
-			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
 				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
 			</ul>
 		</div>
 	</div>

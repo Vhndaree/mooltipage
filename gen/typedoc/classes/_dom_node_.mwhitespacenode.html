@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>MForNode | mooltipage - v0.0.1</title>
+	<title>MWhitespaceNode | mooltipage - v0.0.1</title>
 	<meta name="description" content="Documentation for mooltipage - v0.0.1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -59,10 +59,10 @@
 					<a href="../modules/_dom_node_.html">&quot;dom/node&quot;</a>
 				</li>
 				<li>
-					<a href="_dom_node_.mfornode.html">MForNode</a>
+					<a href="_dom_node_.mwhitespacenode.html">MWhitespaceNode</a>
 				</li>
 			</ul>
-			<h1>Class MForNode</h1>
+			<h1>Class MWhitespaceNode</h1>
 		</div>
 	</div>
 </header>
@@ -72,12 +72,8 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Base class for <m-for> tags.
-								MForNode implements a for loop.
-								An expression is evaluated, and for each resulting value the child nodes are repeated.
-								Each copy is compiled with the current iteration value and index exposed through specified variables.
-								The &quot;var&quot; attribute contains the name of the variable containing the iteration value.
-						The &quot;index&quot; attribute optionally contains the name of the variable to hold the iteration index.</p>
+						<p>Sets the whitespace handling for all descendent nodes of this node.
+						See <a href="../enums/_dom_node_.mwhitespacenodemode.html">MWhitespaceNodeMode</a> for available whitespace modes</p>
 					</div>
 				</div>
 			</section>
@@ -88,15 +84,7 @@
 						<a href="_dom_node_.tagnode.html" class="tsd-signature-type">TagNode</a>
 						<ul class="tsd-hierarchy">
 							<li>
-								<span class="target">MForNode</span>
-								<ul class="tsd-hierarchy">
-									<li>
-										<a href="_dom_node_.mforofnode.html" class="tsd-signature-type">MForOfNode</a>
-									</li>
-									<li>
-										<a href="_dom_node_.mforinnode.html" class="tsd-signature-type">MForInNode</a>
-									</li>
-								</ul>
+								<span class="target">MWhitespaceNode</span>
 							</li>
 						</ul>
 					</li>
@@ -106,143 +94,116 @@
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
-						<section class="tsd-index-section tsd-is-private-protected">
+						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite tsd-is-protected"><a href="_dom_node_.mfornode.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="_dom_node_.mwhitespacenode.html#constructor" class="tsd-kind-icon">constructor</a></li>
 							</ul>
 						</section>
-						<section class="tsd-index-section ">
+						<section class="tsd-index-section tsd-is-inherited">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="_dom_node_.mfornode.html#attributes" class="tsd-kind-icon">attributes</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#childnodes" class="tsd-kind-icon">child<wbr>Nodes</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_dom_node_.mfornode.html#expressionattrname" class="tsd-kind-icon">expression<wbr>Attr<wbr>Name</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#nextsibling" class="tsd-kind-icon">next<wbr>Sibling</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#nodedata" class="tsd-kind-icon">node<wbr>Data</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#nodetags" class="tsd-kind-icon">node<wbr>Tags</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#nodetype" class="tsd-kind-icon">node<wbr>Type</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#parentnode" class="tsd-kind-icon">parent<wbr>Node</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#prevsibling" class="tsd-kind-icon">prev<wbr>Sibling</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#tagname" class="tsd-kind-icon">tag<wbr>Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="_dom_node_.mwhitespacenode.html#attributes" class="tsd-kind-icon">attributes</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#childnodes" class="tsd-kind-icon">child<wbr>Nodes</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#nextsibling" class="tsd-kind-icon">next<wbr>Sibling</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#nodedata" class="tsd-kind-icon">node<wbr>Data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#nodetags" class="tsd-kind-icon">node<wbr>Tags</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#nodetype" class="tsd-kind-icon">node<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#parentnode" class="tsd-kind-icon">parent<wbr>Node</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#prevsibling" class="tsd-kind-icon">prev<wbr>Sibling</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#tagname" class="tsd-kind-icon">tag<wbr>Name</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Accessors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="_dom_node_.mfornode.html#expression" class="tsd-kind-icon">expression</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#firstchild" class="tsd-kind-icon">first<wbr>Child</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#firstchildtag" class="tsd-kind-icon">first<wbr>Child<wbr>Tag</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#firstchildtext" class="tsd-kind-icon">first<wbr>Child<wbr>Text</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="_dom_node_.mfornode.html#indexname" class="tsd-kind-icon">index<wbr>Name</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#lastchild" class="tsd-kind-icon">last<wbr>Child</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#lastchildtag" class="tsd-kind-icon">last<wbr>Child<wbr>Tag</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#lastchildtext" class="tsd-kind-icon">last<wbr>Child<wbr>Text</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#nextsiblingtag" class="tsd-kind-icon">next<wbr>Sibling<wbr>Tag</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#nextsiblingtext" class="tsd-kind-icon">next<wbr>Sibling<wbr>Text</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#prevsiblingtag" class="tsd-kind-icon">prev<wbr>Sibling<wbr>Tag</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#prevsiblingtext" class="tsd-kind-icon">prev<wbr>Sibling<wbr>Text</a></li>
-								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="_dom_node_.mfornode.html#varname" class="tsd-kind-icon">var<wbr>Name</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#firstchild" class="tsd-kind-icon">first<wbr>Child</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#firstchildtag" class="tsd-kind-icon">first<wbr>Child<wbr>Tag</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#firstchildtext" class="tsd-kind-icon">first<wbr>Child<wbr>Text</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#lastchild" class="tsd-kind-icon">last<wbr>Child</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#lastchildtag" class="tsd-kind-icon">last<wbr>Child<wbr>Tag</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#lastchildtext" class="tsd-kind-icon">last<wbr>Child<wbr>Text</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="_dom_node_.mwhitespacenode.html#mode" class="tsd-kind-icon">mode</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#nextsiblingtag" class="tsd-kind-icon">next<wbr>Sibling<wbr>Tag</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#nextsiblingtext" class="tsd-kind-icon">next<wbr>Sibling<wbr>Text</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#prevsiblingtag" class="tsd-kind-icon">prev<wbr>Sibling<wbr>Tag</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#prevsiblingtext" class="tsd-kind-icon">prev<wbr>Sibling<wbr>Text</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#appendchild" class="tsd-kind-icon">append<wbr>Child</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#appendchildren" class="tsd-kind-icon">append<wbr>Children</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#appendsibling" class="tsd-kind-icon">append<wbr>Sibling</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#clear" class="tsd-kind-icon">clear</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_dom_node_.mfornode.html#clone" class="tsd-kind-icon">clone</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#createdomfromchildren" class="tsd-kind-icon">create<wbr>Dom<wbr>From<wbr>Children</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#deleteattribute" class="tsd-kind-icon">delete<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#findchildnode" class="tsd-kind-icon">find<wbr>Child<wbr>Node</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#findchildnodebynodetype" class="tsd-kind-icon">find<wbr>Child<wbr>Node<wbr>ByNode<wbr>Type</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#findchildnodes" class="tsd-kind-icon">find<wbr>Child<wbr>Nodes</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#findchildnodesbynodetype" class="tsd-kind-icon">find<wbr>Child<wbr>Nodes<wbr>ByNode<wbr>Type</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#findchildtag" class="tsd-kind-icon">find<wbr>Child<wbr>Tag</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#findchildtagbytagname" class="tsd-kind-icon">find<wbr>Child<wbr>Tag<wbr>ByTag<wbr>Name</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#findchildtags" class="tsd-kind-icon">find<wbr>Child<wbr>Tags</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#findchildtagsbytagname" class="tsd-kind-icon">find<wbr>Child<wbr>Tags<wbr>ByTag<wbr>Name</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#findnext" class="tsd-kind-icon">find<wbr>Next</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#getattribute" class="tsd-kind-icon">get<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#getattributes" class="tsd-kind-icon">get<wbr>Attributes</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#getchildtags" class="tsd-kind-icon">get<wbr>Child<wbr>Tags</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#getoptionalvalueattribute" class="tsd-kind-icon">get<wbr>Optional<wbr>Value<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#getrawattribute" class="tsd-kind-icon">get<wbr>Raw<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#getrequiredattribute" class="tsd-kind-icon">get<wbr>Required<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#getrequiredvalueattribute" class="tsd-kind-icon">get<wbr>Required<wbr>Value<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#hasattribute" class="tsd-kind-icon">has<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#hasvalueattribute" class="tsd-kind-icon">has<wbr>Value<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#prependchild" class="tsd-kind-icon">prepend<wbr>Child</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#prependchildren" class="tsd-kind-icon">prepend<wbr>Children</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#prependsibling" class="tsd-kind-icon">prepend<wbr>Sibling</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_dom_node_.mfornode.html#removeself" class="tsd-kind-icon">remove<wbr>Self</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#replaceself" class="tsd-kind-icon">replace<wbr>Self</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#setattribute" class="tsd-kind-icon">set<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#setbooleanattribute" class="tsd-kind-icon">set<wbr>Boolean<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#setrawattribute" class="tsd-kind-icon">set<wbr>Raw<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#setrequiredvalueattribute" class="tsd-kind-icon">set<wbr>Required<wbr>Value<wbr>Attribute</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mfornode.html#tohtml" class="tsd-kind-icon">to<wbr>Html</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_dom_node_.mfornode.html#ismfornode" class="tsd-kind-icon">isMFor<wbr>Node</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="_dom_node_.mfornode.html#isnodewithchildren" class="tsd-kind-icon">is<wbr>Node<wbr>With<wbr>Children</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="_dom_node_.mfornode.html#istagnode" class="tsd-kind-icon">is<wbr>Tag<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#appendchild" class="tsd-kind-icon">append<wbr>Child</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#appendchildren" class="tsd-kind-icon">append<wbr>Children</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#appendsibling" class="tsd-kind-icon">append<wbr>Sibling</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#clear" class="tsd-kind-icon">clear</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="_dom_node_.mwhitespacenode.html#clone" class="tsd-kind-icon">clone</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#createdomfromchildren" class="tsd-kind-icon">create<wbr>Dom<wbr>From<wbr>Children</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#deleteattribute" class="tsd-kind-icon">delete<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#findchildnode" class="tsd-kind-icon">find<wbr>Child<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#findchildnodebynodetype" class="tsd-kind-icon">find<wbr>Child<wbr>Node<wbr>ByNode<wbr>Type</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#findchildnodes" class="tsd-kind-icon">find<wbr>Child<wbr>Nodes</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#findchildnodesbynodetype" class="tsd-kind-icon">find<wbr>Child<wbr>Nodes<wbr>ByNode<wbr>Type</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#findchildtag" class="tsd-kind-icon">find<wbr>Child<wbr>Tag</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#findchildtagbytagname" class="tsd-kind-icon">find<wbr>Child<wbr>Tag<wbr>ByTag<wbr>Name</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#findchildtags" class="tsd-kind-icon">find<wbr>Child<wbr>Tags</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#findchildtagsbytagname" class="tsd-kind-icon">find<wbr>Child<wbr>Tags<wbr>ByTag<wbr>Name</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#findnext" class="tsd-kind-icon">find<wbr>Next</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#getattribute" class="tsd-kind-icon">get<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#getattributes" class="tsd-kind-icon">get<wbr>Attributes</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#getchildtags" class="tsd-kind-icon">get<wbr>Child<wbr>Tags</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#getoptionalvalueattribute" class="tsd-kind-icon">get<wbr>Optional<wbr>Value<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#getrawattribute" class="tsd-kind-icon">get<wbr>Raw<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#getrequiredattribute" class="tsd-kind-icon">get<wbr>Required<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#getrequiredvalueattribute" class="tsd-kind-icon">get<wbr>Required<wbr>Value<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#hasattribute" class="tsd-kind-icon">has<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#hasvalueattribute" class="tsd-kind-icon">has<wbr>Value<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#prependchild" class="tsd-kind-icon">prepend<wbr>Child</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#prependchildren" class="tsd-kind-icon">prepend<wbr>Children</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#prependsibling" class="tsd-kind-icon">prepend<wbr>Sibling</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#removeself" class="tsd-kind-icon">remove<wbr>Self</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#replaceself" class="tsd-kind-icon">replace<wbr>Self</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#setattribute" class="tsd-kind-icon">set<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#setbooleanattribute" class="tsd-kind-icon">set<wbr>Boolean<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#setrawattribute" class="tsd-kind-icon">set<wbr>Raw<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#setrequiredvalueattribute" class="tsd-kind-icon">set<wbr>Required<wbr>Value<wbr>Attribute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_dom_node_.mwhitespacenode.html#tohtml" class="tsd-kind-icon">to<wbr>Html</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_dom_node_.mwhitespacenode.html#ismwhitespacenode" class="tsd-kind-icon">isMWhitespace<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="_dom_node_.mwhitespacenode.html#isnodewithchildren" class="tsd-kind-icon">is<wbr>Node<wbr>With<wbr>Children</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="_dom_node_.mwhitespacenode.html#istagnode" class="tsd-kind-icon">is<wbr>Tag<wbr>Node</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group tsd-is-private-protected">
+			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 					<a name="constructor" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon">new MFor<wbr>Node<span class="tsd-signature-symbol">(</span>expressionAttrName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, expression<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">unknown</span>, varName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, indexName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span>, attributes<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_dom_node_.mfornode.html" class="tsd-signature-type">MForNode</a></li>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">new MWhitespace<wbr>Node<span class="tsd-signature-symbol">(</span>mode<span class="tsd-signature-symbol">?: </span><a href="../enums/_dom_node_.mwhitespacenodemode.html" class="tsd-signature-type">MWhitespaceNodeMode</a>, attributes<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_dom_node_.mwhitespacenode.html" class="tsd-signature-type">MWhitespaceNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_dom_node_.tagnode.html">TagNode</a>.<a href="_dom_node_.tagnode.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1239">dom/node.ts:1239</a></li>
+									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1948">dom/node.ts:1948</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Create a new MForNode</p>
+									<p>Create a new MWhitespaceNode</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>expressionAttrName: <span class="tsd-signature-type">string</span></h5>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> mode: <a href="../enums/_dom_node_.mwhitespacenodemode.html" class="tsd-signature-type">MWhitespaceNodeMode</a><span class="tsd-signature-symbol"> = MWhitespaceNodeMode.SENSITIVE</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<div class="lead">
-											<p>Name of the attribute that contains the expression</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<h5>expression: <span class="tsd-signature-type">unknown</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>Value of the expression</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<h5>varName: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>Name of the variable to store the current iteration value</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<h5>indexName: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>Optional name of the variable to store the current iteration index.</p>
+											<p>Whitespace handling mode to use</p>
 										</div>
 									</div>
 								</li>
@@ -255,12 +216,12 @@
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="_dom_node_.mfornode.html" class="tsd-signature-type">MForNode</a></h4>
+							<h4 class="tsd-returns-title">Returns <a href="_dom_node_.mwhitespacenode.html" class="tsd-signature-type">MWhitespaceNode</a></h4>
 						</li>
 					</ul>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group ">
+			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
 					<a name="attributes" class="tsd-anchor"></a>
@@ -293,21 +254,6 @@
 						<div class="lead">
 							<p>Children of this node.
 							Do not modify this directly, use NodeLogic or instance methods.</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="expressionattrname" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> expression<wbr>Attr<wbr>Name</h3>
-					<div class="tsd-signature tsd-kind-icon">expression<wbr>Attr<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1239">dom/node.ts:1239</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Name of the attribute that stores the expression for this <m-for></p>
 						</div>
 					</div>
 				</section>
@@ -432,52 +378,6 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Accessors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="expression" class="tsd-anchor"></a>
-					<h3>expression</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> expression<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">unknown</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> expression<span class="tsd-signature-symbol">(</span>newOf<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1269">dom/node.ts:1269</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>The raw value of the expression in this <m-for>.
-											If this node has been processed by TemplateTextModule, then this will be the array or object to iterate.
-									Otherwise, it will be the uncompiled string expression.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">unknown</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1272">dom/node.ts:1272</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>The raw value of the expression in this <m-for>.
-											If this node has been processed by TemplateTextModule, then this will be the array or object to iterate.
-									Otherwise, it will be the uncompiled string expression.</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>newOf: <span class="tsd-signature-type">unknown</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
 					<a name="firstchild" class="tsd-anchor"></a>
 					<h3>first<wbr>Child</h3>
@@ -547,48 +447,6 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="indexname" class="tsd-anchor"></a>
-					<h3>index<wbr>Name</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> indexName<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> indexName<span class="tsd-signature-symbol">(</span>newIndexName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1289">dom/node.ts:1289</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Name of the index binding</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1292">dom/node.ts:1292</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Name of the index binding</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>newIndexName: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
 					<a name="lastchild" class="tsd-anchor"></a>
 					<h3>last<wbr>Child</h3>
@@ -655,6 +513,48 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <a href="_dom_node_.textnode.html" class="tsd-signature-type">TextNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="mode" class="tsd-anchor"></a>
+					<h3>mode</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> mode<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../enums/_dom_node_.mwhitespacenodemode.html" class="tsd-signature-type">MWhitespaceNodeMode</a></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> mode<span class="tsd-signature-symbol">(</span>newMode<span class="tsd-signature-symbol">: </span><a href="../enums/_dom_node_.mwhitespacenodemode.html" class="tsd-signature-type">MWhitespaceNodeMode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1963">dom/node.ts:1963</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Whitespace handling mode to apply to descendants of this node</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="../enums/_dom_node_.mwhitespacenodemode.html" class="tsd-signature-type">MWhitespaceNodeMode</a></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1975">dom/node.ts:1975</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Whitespace handling mode to apply to descendants of this node</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>newMode: <a href="../enums/_dom_node_.mwhitespacenodemode.html" class="tsd-signature-type">MWhitespaceNodeMode</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -747,48 +647,6 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <a href="_dom_node_.textnode.html" class="tsd-signature-type">TextNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-					<a name="varname" class="tsd-anchor"></a>
-					<h3>var<wbr>Name</h3>
-					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> varName<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> varName<span class="tsd-signature-symbol">(</span>newVar<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1279">dom/node.ts:1279</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Name of the variable binding</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-						</li>
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1282">dom/node.ts:1282</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Name of the variable binding</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>newVar: <span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -914,19 +772,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 					<a name="clone" class="tsd-anchor"></a>
 					<h3>clone</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">clone<span class="tsd-signature-symbol">(</span>deep<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, callback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>oldNode<span class="tsd-signature-symbol">: </span><a href="_dom_node_.node.html" class="tsd-signature-type">Node</a>, newNode<span class="tsd-signature-symbol">: </span><a href="_dom_node_.node.html" class="tsd-signature-type">Node</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_dom_node_.tagnode.html" class="tsd-signature-type">TagNode</a></li>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">clone<span class="tsd-signature-symbol">(</span>deep<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, callback<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>oldNode<span class="tsd-signature-symbol">: </span><a href="_dom_node_.node.html" class="tsd-signature-type">Node</a>, newNode<span class="tsd-signature-symbol">: </span><a href="_dom_node_.node.html" class="tsd-signature-type">Node</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_dom_node_.mwhitespacenode.html" class="tsd-signature-type">MWhitespaceNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="_dom_node_.tagnode.html">TagNode</a>.<a href="_dom_node_.tagnode.html#clone">clone</a></p>
-								<p>Overrides <a href="_dom_node_.node.html">Node</a>.<a href="_dom_node_.node.html#clone">clone</a></p>
+								<p>Overrides <a href="_dom_node_.tagnode.html">TagNode</a>.<a href="_dom_node_.tagnode.html#clone">clone</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L650">dom/node.ts:650</a></li>
+									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1979">dom/node.ts:1979</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -938,7 +795,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> callback: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>oldNode<span class="tsd-signature-symbol">: </span><a href="_dom_node_.node.html" class="tsd-signature-type">Node</a>, newNode<span class="tsd-signature-symbol">: </span><a href="_dom_node_.node.html" class="tsd-signature-type">Node</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="_dom_node_.tagnode.html" class="tsd-signature-type">TagNode</a></h4>
+							<h4 class="tsd-returns-title">Returns <a href="_dom_node_.mwhitespacenode.html" class="tsd-signature-type">MWhitespaceNode</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -2814,21 +2671,21 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
-					<a name="ismfornode" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> isMFor<wbr>Node</h3>
+					<a name="ismwhitespacenode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> isMWhitespace<wbr>Node</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon">isMFor<wbr>Node<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="_dom_node_.node.html" class="tsd-signature-type">Node</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">node</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">MForNode</span></li>
+						<li class="tsd-signature tsd-kind-icon">isMWhitespace<wbr>Node<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="_dom_node_.node.html" class="tsd-signature-type">Node</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">node</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">MWhitespaceNode</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1304">dom/node.ts:1304</a></li>
+									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1987">dom/node.ts:1987</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns true if a node is an instance of MForNode</p>
+									<p>Returns true if a node is an MWhitespaceNode</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2840,7 +2697,7 @@
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">node</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">MForNode</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">node</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">MWhitespaceNode</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -2926,193 +2783,184 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class tsd-parent-kind-module">
-						<a href="_dom_node_.mfornode.html" class="tsd-kind-icon">MFor<wbr>Node</a>
+						<a href="_dom_node_.mwhitespacenode.html" class="tsd-kind-icon">MWhitespace<wbr>Node</a>
 						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
-								<a href="_dom_node_.mfornode.html#constructor" class="tsd-kind-icon">constructor</a>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+								<a href="_dom_node_.mwhitespacenode.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
-								<a href="_dom_node_.mfornode.html#attributes" class="tsd-kind-icon">attributes</a>
+								<a href="_dom_node_.mwhitespacenode.html#attributes" class="tsd-kind-icon">attributes</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#childnodes" class="tsd-kind-icon">child<wbr>Nodes</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="_dom_node_.mfornode.html#expressionattrname" class="tsd-kind-icon">expression<wbr>Attr<wbr>Name</a>
+								<a href="_dom_node_.mwhitespacenode.html#childnodes" class="tsd-kind-icon">child<wbr>Nodes</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#nextsibling" class="tsd-kind-icon">next<wbr>Sibling</a>
+								<a href="_dom_node_.mwhitespacenode.html#nextsibling" class="tsd-kind-icon">next<wbr>Sibling</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#nodedata" class="tsd-kind-icon">node<wbr>Data</a>
+								<a href="_dom_node_.mwhitespacenode.html#nodedata" class="tsd-kind-icon">node<wbr>Data</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#nodetags" class="tsd-kind-icon">node<wbr>Tags</a>
+								<a href="_dom_node_.mwhitespacenode.html#nodetags" class="tsd-kind-icon">node<wbr>Tags</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#nodetype" class="tsd-kind-icon">node<wbr>Type</a>
+								<a href="_dom_node_.mwhitespacenode.html#nodetype" class="tsd-kind-icon">node<wbr>Type</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#parentnode" class="tsd-kind-icon">parent<wbr>Node</a>
+								<a href="_dom_node_.mwhitespacenode.html#parentnode" class="tsd-kind-icon">parent<wbr>Node</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#prevsibling" class="tsd-kind-icon">prev<wbr>Sibling</a>
+								<a href="_dom_node_.mwhitespacenode.html#prevsibling" class="tsd-kind-icon">prev<wbr>Sibling</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#tagname" class="tsd-kind-icon">tag<wbr>Name</a>
+								<a href="_dom_node_.mwhitespacenode.html#tagname" class="tsd-kind-icon">tag<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#firstchild" class="tsd-kind-icon">first<wbr>Child</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#firstchildtag" class="tsd-kind-icon">first<wbr>Child<wbr>Tag</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#firstchildtext" class="tsd-kind-icon">first<wbr>Child<wbr>Text</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#lastchild" class="tsd-kind-icon">last<wbr>Child</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#lastchildtag" class="tsd-kind-icon">last<wbr>Child<wbr>Tag</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#lastchildtext" class="tsd-kind-icon">last<wbr>Child<wbr>Text</a>
 							</li>
 							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="_dom_node_.mfornode.html#expression" class="tsd-kind-icon">expression</a>
+								<a href="_dom_node_.mwhitespacenode.html#mode" class="tsd-kind-icon">mode</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#firstchild" class="tsd-kind-icon">first<wbr>Child</a>
+								<a href="_dom_node_.mwhitespacenode.html#nextsiblingtag" class="tsd-kind-icon">next<wbr>Sibling<wbr>Tag</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#firstchildtag" class="tsd-kind-icon">first<wbr>Child<wbr>Tag</a>
+								<a href="_dom_node_.mwhitespacenode.html#nextsiblingtext" class="tsd-kind-icon">next<wbr>Sibling<wbr>Text</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#firstchildtext" class="tsd-kind-icon">first<wbr>Child<wbr>Text</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="_dom_node_.mfornode.html#indexname" class="tsd-kind-icon">index<wbr>Name</a>
+								<a href="_dom_node_.mwhitespacenode.html#prevsiblingtag" class="tsd-kind-icon">prev<wbr>Sibling<wbr>Tag</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#lastchild" class="tsd-kind-icon">last<wbr>Child</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#lastchildtag" class="tsd-kind-icon">last<wbr>Child<wbr>Tag</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#lastchildtext" class="tsd-kind-icon">last<wbr>Child<wbr>Text</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#nextsiblingtag" class="tsd-kind-icon">next<wbr>Sibling<wbr>Tag</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#nextsiblingtext" class="tsd-kind-icon">next<wbr>Sibling<wbr>Text</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#prevsiblingtag" class="tsd-kind-icon">prev<wbr>Sibling<wbr>Tag</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#prevsiblingtext" class="tsd-kind-icon">prev<wbr>Sibling<wbr>Text</a>
-							</li>
-							<li class=" tsd-kind-accessor tsd-parent-kind-class">
-								<a href="_dom_node_.mfornode.html#varname" class="tsd-kind-icon">var<wbr>Name</a>
+								<a href="_dom_node_.mwhitespacenode.html#prevsiblingtext" class="tsd-kind-icon">prev<wbr>Sibling<wbr>Text</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#appendchild" class="tsd-kind-icon">append<wbr>Child</a>
+								<a href="_dom_node_.mwhitespacenode.html#appendchild" class="tsd-kind-icon">append<wbr>Child</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#appendchildren" class="tsd-kind-icon">append<wbr>Children</a>
+								<a href="_dom_node_.mwhitespacenode.html#appendchildren" class="tsd-kind-icon">append<wbr>Children</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#appendsibling" class="tsd-kind-icon">append<wbr>Sibling</a>
+								<a href="_dom_node_.mwhitespacenode.html#appendsibling" class="tsd-kind-icon">append<wbr>Sibling</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#clear" class="tsd-kind-icon">clear</a>
+								<a href="_dom_node_.mwhitespacenode.html#clear" class="tsd-kind-icon">clear</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="_dom_node_.mwhitespacenode.html#clone" class="tsd-kind-icon">clone</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#createdomfromchildren" class="tsd-kind-icon">create<wbr>Dom<wbr>From<wbr>Children</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#deleteattribute" class="tsd-kind-icon">delete<wbr>Attribute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#findchildnode" class="tsd-kind-icon">find<wbr>Child<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#findchildnodebynodetype" class="tsd-kind-icon">find<wbr>Child<wbr>Node<wbr>ByNode<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#findchildnodes" class="tsd-kind-icon">find<wbr>Child<wbr>Nodes</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#findchildnodesbynodetype" class="tsd-kind-icon">find<wbr>Child<wbr>Nodes<wbr>ByNode<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#findchildtag" class="tsd-kind-icon">find<wbr>Child<wbr>Tag</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#findchildtagbytagname" class="tsd-kind-icon">find<wbr>Child<wbr>Tag<wbr>ByTag<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#findchildtags" class="tsd-kind-icon">find<wbr>Child<wbr>Tags</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#findchildtagsbytagname" class="tsd-kind-icon">find<wbr>Child<wbr>Tags<wbr>ByTag<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#findnext" class="tsd-kind-icon">find<wbr>Next</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#getattribute" class="tsd-kind-icon">get<wbr>Attribute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#getattributes" class="tsd-kind-icon">get<wbr>Attributes</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#getchildtags" class="tsd-kind-icon">get<wbr>Child<wbr>Tags</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#getoptionalvalueattribute" class="tsd-kind-icon">get<wbr>Optional<wbr>Value<wbr>Attribute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#getrawattribute" class="tsd-kind-icon">get<wbr>Raw<wbr>Attribute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#getrequiredattribute" class="tsd-kind-icon">get<wbr>Required<wbr>Attribute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#getrequiredvalueattribute" class="tsd-kind-icon">get<wbr>Required<wbr>Value<wbr>Attribute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#hasattribute" class="tsd-kind-icon">has<wbr>Attribute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#hasvalueattribute" class="tsd-kind-icon">has<wbr>Value<wbr>Attribute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#prependchild" class="tsd-kind-icon">prepend<wbr>Child</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#prependchildren" class="tsd-kind-icon">prepend<wbr>Children</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_dom_node_.mwhitespacenode.html#prependsibling" class="tsd-kind-icon">prepend<wbr>Sibling</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#clone" class="tsd-kind-icon">clone</a>
+								<a href="_dom_node_.mwhitespacenode.html#removeself" class="tsd-kind-icon">remove<wbr>Self</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#createdomfromchildren" class="tsd-kind-icon">create<wbr>Dom<wbr>From<wbr>Children</a>
+								<a href="_dom_node_.mwhitespacenode.html#replaceself" class="tsd-kind-icon">replace<wbr>Self</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#deleteattribute" class="tsd-kind-icon">delete<wbr>Attribute</a>
+								<a href="_dom_node_.mwhitespacenode.html#setattribute" class="tsd-kind-icon">set<wbr>Attribute</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#findchildnode" class="tsd-kind-icon">find<wbr>Child<wbr>Node</a>
+								<a href="_dom_node_.mwhitespacenode.html#setbooleanattribute" class="tsd-kind-icon">set<wbr>Boolean<wbr>Attribute</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#findchildnodebynodetype" class="tsd-kind-icon">find<wbr>Child<wbr>Node<wbr>ByNode<wbr>Type</a>
+								<a href="_dom_node_.mwhitespacenode.html#setrawattribute" class="tsd-kind-icon">set<wbr>Raw<wbr>Attribute</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#findchildnodes" class="tsd-kind-icon">find<wbr>Child<wbr>Nodes</a>
+								<a href="_dom_node_.mwhitespacenode.html#setrequiredvalueattribute" class="tsd-kind-icon">set<wbr>Required<wbr>Value<wbr>Attribute</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#findchildnodesbynodetype" class="tsd-kind-icon">find<wbr>Child<wbr>Nodes<wbr>ByNode<wbr>Type</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#findchildtag" class="tsd-kind-icon">find<wbr>Child<wbr>Tag</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#findchildtagbytagname" class="tsd-kind-icon">find<wbr>Child<wbr>Tag<wbr>ByTag<wbr>Name</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#findchildtags" class="tsd-kind-icon">find<wbr>Child<wbr>Tags</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#findchildtagsbytagname" class="tsd-kind-icon">find<wbr>Child<wbr>Tags<wbr>ByTag<wbr>Name</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#findnext" class="tsd-kind-icon">find<wbr>Next</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#getattribute" class="tsd-kind-icon">get<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#getattributes" class="tsd-kind-icon">get<wbr>Attributes</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#getchildtags" class="tsd-kind-icon">get<wbr>Child<wbr>Tags</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#getoptionalvalueattribute" class="tsd-kind-icon">get<wbr>Optional<wbr>Value<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#getrawattribute" class="tsd-kind-icon">get<wbr>Raw<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#getrequiredattribute" class="tsd-kind-icon">get<wbr>Required<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#getrequiredvalueattribute" class="tsd-kind-icon">get<wbr>Required<wbr>Value<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#hasattribute" class="tsd-kind-icon">has<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#hasvalueattribute" class="tsd-kind-icon">has<wbr>Value<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#prependchild" class="tsd-kind-icon">prepend<wbr>Child</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#prependchildren" class="tsd-kind-icon">prepend<wbr>Children</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#prependsibling" class="tsd-kind-icon">prepend<wbr>Sibling</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#removeself" class="tsd-kind-icon">remove<wbr>Self</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#replaceself" class="tsd-kind-icon">replace<wbr>Self</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#setattribute" class="tsd-kind-icon">set<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#setbooleanattribute" class="tsd-kind-icon">set<wbr>Boolean<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#setrawattribute" class="tsd-kind-icon">set<wbr>Raw<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#setrequiredvalueattribute" class="tsd-kind-icon">set<wbr>Required<wbr>Value<wbr>Attribute</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_dom_node_.mfornode.html#tohtml" class="tsd-kind-icon">to<wbr>Html</a>
+								<a href="_dom_node_.mwhitespacenode.html#tohtml" class="tsd-kind-icon">to<wbr>Html</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
-								<a href="_dom_node_.mfornode.html#ismfornode" class="tsd-kind-icon">isMFor<wbr>Node</a>
+								<a href="_dom_node_.mwhitespacenode.html#ismwhitespacenode" class="tsd-kind-icon">isMWhitespace<wbr>Node</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
-								<a href="_dom_node_.mfornode.html#isnodewithchildren" class="tsd-kind-icon">is<wbr>Node<wbr>With<wbr>Children</a>
+								<a href="_dom_node_.mwhitespacenode.html#isnodewithchildren" class="tsd-kind-icon">is<wbr>Node<wbr>With<wbr>Children</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
-								<a href="_dom_node_.mfornode.html#istagnode" class="tsd-kind-icon">is<wbr>Tag<wbr>Node</a>
+								<a href="_dom_node_.mwhitespacenode.html#istagnode" class="tsd-kind-icon">is<wbr>Tag<wbr>Node</a>
 							</li>
 						</ul>
 					</li>
@@ -3138,7 +2986,8 @@
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
 				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
 			</ul>
 			<ul class="tsd-legend">

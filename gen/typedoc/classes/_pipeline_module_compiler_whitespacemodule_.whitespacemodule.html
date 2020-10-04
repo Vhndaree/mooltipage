@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>MDataNodeRef | mooltipage - v0.0.1</title>
+	<title>WhitespaceModule | mooltipage - v0.0.1</title>
 	<meta name="description" content="Documentation for mooltipage - v0.0.1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,13 +56,13 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/_dom_node_.html">&quot;dom/node&quot;</a>
+					<a href="../modules/_pipeline_module_compiler_whitespacemodule_.html">&quot;pipeline/module/compiler/whitespaceModule&quot;</a>
 				</li>
 				<li>
-					<a href="_dom_node_.mdatanoderef.html">MDataNodeRef</a>
+					<a href="_pipeline_module_compiler_whitespacemodule_.whitespacemodule.html">WhitespaceModule</a>
 				</li>
 			</ul>
-			<h1>Interface MDataNodeRef</h1>
+			<h1>Class WhitespaceModule</h1>
 		</div>
 	</div>
 </header>
@@ -72,7 +72,8 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>A data reference defined in an <m-data> node</p>
+						<p>Compiler module that process whitespace-sensitivity.
+						This module handles <m-whitespace> by setting isWhitespaceSensitive on all child nodes</p>
 					</div>
 				</div>
 			</section>
@@ -80,8 +81,14 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">MDataNodeRef</span>
+						<span class="target">WhitespaceModule</span>
 					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/_pipeline_module_htmlcompiler_.htmlcompilermodule.html" class="tsd-signature-type">HtmlCompilerModule</a></li>
 				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
@@ -89,46 +96,39 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Properties</h3>
+							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_dom_node_.mdatanoderef.html#respath" class="tsd-kind-icon">res<wbr>Path</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_dom_node_.mdatanoderef.html#varname" class="tsd-kind-icon">var<wbr>Name</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_pipeline_module_compiler_whitespacemodule_.whitespacemodule.html#exitnode" class="tsd-kind-icon">exit<wbr>Node</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="respath" class="tsd-anchor"></a>
-					<h3>res<wbr>Path</h3>
-					<div class="tsd-signature tsd-kind-icon">res<wbr>Path<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1381">dom/node.ts:1381</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Path to the data file</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="varname" class="tsd-anchor"></a>
-					<h3>var<wbr>Name</h3>
-					<div class="tsd-signature tsd-kind-icon">var<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/dom/node.ts#L1386">dom/node.ts:1386</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Name of the scope variable to bind to</p>
-						</div>
-					</div>
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="exitnode" class="tsd-anchor"></a>
+					<h3>exit<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">exit<wbr>Node<span class="tsd-signature-symbol">(</span>htmlContext<span class="tsd-signature-symbol">: </span><a href="_pipeline_module_htmlcompiler_.htmlcompilercontext.html" class="tsd-signature-type">HtmlCompilerContext</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/_pipeline_module_htmlcompiler_.htmlcompilermodule.html">HtmlCompilerModule</a>.<a href="../interfaces/_pipeline_module_htmlcompiler_.htmlcompilermodule.html#exitnode">exitNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Vhndaree/mooltipage/blob/6073af3/src/lib/pipeline/module/compiler/whitespaceModule.ts#L20">pipeline/module/compiler/whitespaceModule.ts:20</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>htmlContext: <a href="_pipeline_module_htmlcompiler_.htmlcompilercontext.html" class="tsd-signature-type">HtmlCompilerContext</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 		</div>
@@ -139,7 +139,7 @@
 						<a href="../globals.html"><em>Globals</em></a>
 					</li>
 					<li class="current tsd-kind-module">
-						<a href="../modules/_dom_node_.html">&quot;dom/node&quot;</a>
+						<a href="../modules/_pipeline_module_compiler_whitespacemodule_.html">&quot;pipeline/module/compiler/whitespace<wbr>Module&quot;</a>
 					</li>
 				</ul>
 			</nav>
@@ -147,19 +147,22 @@
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="_dom_node_.mdatanoderef.html" class="tsd-kind-icon">MData<wbr>Node<wbr>Ref</a>
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="_pipeline_module_compiler_whitespacemodule_.whitespacemodule.html" class="tsd-kind-icon">Whitespace<wbr>Module</a>
 						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_dom_node_.mdatanoderef.html#respath" class="tsd-kind-icon">res<wbr>Path</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_dom_node_.mdatanoderef.html#varname" class="tsd-kind-icon">var<wbr>Name</a>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_pipeline_module_compiler_whitespacemodule_.whitespacemodule.html#exitnode" class="tsd-kind-icon">exit<wbr>Node</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
+					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_pipeline_module_compiler_whitespacemodule_.html#node_tag_is_whitespace_processed" class="tsd-kind-icon">NODE_<wbr>TAG_<wbr>IS_<wbr>WHITESPACE_<wbr>PROCESSED</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_pipeline_module_compiler_whitespacemodule_.html#applywhitespacesettings" class="tsd-kind-icon">apply<wbr>Whitespace<wbr>Settings</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -178,15 +181,15 @@
 				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
-				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
-			</ul>
-			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
 				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
 			</ul>
 		</div>
 	</div>
